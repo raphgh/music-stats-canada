@@ -1,0 +1,37 @@
+{
+  "home": "Home",
+  "about": "About",
+  "submit_stats": "Submit Your Stats",
+
+  "main_title": "Music Stats Canada",
+  "slogan": "Your one-stop destination for all things music in Canada.",
+  
+
+  "creation": "Creation",
+
+  "studio": "Studio rental rates",
+  "musicians": "Musician session fees",
+  "equipment": "Instrument/equipment prices",
+  "software": "Audio production software",
+  "producer": "Producer/engineer rates",
+
+  
+  "distribution": "Distribution & Labels",
+
+  "video_production": "Music video production",
+  "album_art": "Album artwork & design",
+  "marketing_cost": "PR/Marketing campaign cost",
+  "cd_printing": "CD/vinyl printing",
+  "licensing_fees": "Digital licensing fees",
+
+
+  "platforms": "Platforms & Retail",
+
+  "spotify_payouts": "Spotify/Apple payouts",
+  "live_ticket_prices": "Live ticket prices (avg)",
+  "merch_sales": "Merchandise sales volume",
+  "platform_fees": "Platform commission fees",
+  "indie_revenue": "Independent artist revenue"
+
+
+}
