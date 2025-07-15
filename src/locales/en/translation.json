@@ -31,7 +31,12 @@
   "live_ticket_prices": "Live ticket prices (avg)",
   "merch_sales": "Merchandise sales volume",
   "platform_fees": "Platform commission fees",
-  "indie_revenue": "Independent artist revenue"
+  "indie_revenue": "Independent artist revenue",
+
+  
+  "chart1title": "Rock Music Popularity Increases with Age (Compared to Pop & Hip-Hop)",
+  "chart1xaxis": "Age Group",
+  "chart1yaxis": "Popularity"
 
 
 }
