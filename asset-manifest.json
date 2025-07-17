@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/music-stats-canada/static/css/main.a16cccd9.css",
-    "main.js": "/music-stats-canada/static/js/main.c184e105.js",
+    "main.js": "/music-stats-canada/static/js/main.b81d7893.js",
     "static/media/logo.png": "/music-stats-canada/static/media/logo.c390a13619369bb03fdd.png",
     "static/media/mainimage.png": "/music-stats-canada/static/media/mainimage.693e937eee13ddf798a5.png",
     "static/media/creation.jpg": "/music-stats-canada/static/media/creation.c7c4f8685305bd775356.jpg",
@@ -11,10 +11,10 @@
     "static/media/musicplatforms.png": "/music-stats-canada/static/media/musicplatforms.10358606241b84b58c8b.png",
     "index.html": "/music-stats-canada/index.html",
     "main.a16cccd9.css.map": "/music-stats-canada/static/css/main.a16cccd9.css.map",
-    "main.c184e105.js.map": "/music-stats-canada/static/js/main.c184e105.js.map"
+    "main.b81d7893.js.map": "/music-stats-canada/static/js/main.b81d7893.js.map"
   },
   "entrypoints": [
     "static/css/main.a16cccd9.css",
-    "static/js/main.c184e105.js"
+    "static/js/main.b81d7893.js"
   ]
 }
