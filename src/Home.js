@@ -8,6 +8,7 @@ import HomeImg from './images/mainimage.png';
 import DistributionImg from './images/musicmarketing.jpg';
 import AvgStreamsBarChart from './AvgStreamsBarChart';
 import Footer from './Footer';
+import Platforms from './images/musicplatforms.png'
 
 function Home() {
   const { t } = useTranslation();
@@ -31,7 +32,7 @@ function Home() {
 
       {/* Genre Popularity */}
       <Container style={{ marginTop: '4rem' }}>
-        <h4 style={{ textAlign: 'center', marginBottom: '2rem' }}>📊 Genre Popularity by Age</h4>
+        <h4 style={{ textAlign: 'left', marginBottom: '2rem', color: "#d2194b" }}>📊 Popularity Trends</h4>
         <Row>
           <Col md={8}>
             <GenreLineChart />
@@ -61,7 +62,7 @@ function Home() {
       {/* Industry Cards */}
       <section style={{backgroundColor: "#A2A3BB", padding: "2px"}}>
         <Container style={{ marginTop: '5rem'}}>
-            <h4 style={{ textAlign: 'center', marginBottom: '2rem'}}>💼 Music Industry Breakdown</h4>
+            <h4 style={{ textAlign: 'center', marginBottom: '2rem'}}>💵 {t('cardstitle')}</h4>
             <Row className="g-4">
             {[ 
                 {
@@ -88,7 +89,7 @@ function Home() {
                 },
                 {
                 title: t('platforms'),
-                image: DistributionImg,
+                image: Platforms,
                 data: [
                     [t('spotify_payouts'), '-1.1%'],
                     [t('live_ticket_prices'), '+9.4%'],
@@ -135,7 +136,7 @@ function Home() {
 
       {/* Streams Section */}
       <Container style={{ marginTop: '5rem' }}>
-        <h4 style={{ textAlign: 'center', marginBottom: '2rem' }}>🎵 Average Song Streams</h4>
+        <h4 style={{ textAlign: 'right', marginBottom: '2rem', color: "#d2194b" }}>🎵{t('song_trends')} </h4>
         <Row>
           <Col md={4} className="d-flex align-items-center">
             <Card className="text-white shadow-sm w-100" style={{
@@ -161,7 +162,7 @@ function Home() {
       {/* Quick Fact Banner */}
       <section style={{ backgroundColor: '#ff9a56', padding: '2rem 1rem', marginTop: '4rem' }}>
         <Container>
-          <h4 style={{ textAlign: 'center', color: 'white', marginBottom: '1rem' }}>🧠 Quick Fact</h4>
+          <h4 style={{ textAlign: 'center', color: 'white', marginBottom: '1rem' }}>🧠 {t('quickfact')}</h4>
           <p style={{ textAlign: 'center', maxWidth: '700px', color: 'white', margin: '0 auto' }}>
             {t('fact3')}
             <br />

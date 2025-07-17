@@ -2,14 +2,14 @@ import React from 'react';
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, Legend, CartesianGrid } from 'recharts';
 import { useTranslation } from 'react-i18next';
 
-const barChartData = [
-  { song: 'Midnight Echoes', average1: 107272 },
-  { song: 'Velvet Skies', average2: 137363 },
-  { song: 'Crimson Nights', average3: 121423 },
-];
-
 function AvgStreamsBarChart() {
   const { t } = useTranslation();
+
+  const barChartData = [
+    { song: t('song1'), average1: 107272 },
+    { song: t('song2'), average2: 137363 },
+    { song: t('song3'), average3: 121423 },
+  ];
 
   return (
     <div style={{
