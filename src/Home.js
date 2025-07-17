@@ -27,7 +27,7 @@ function Home() {
         }}
       >
         <h1>{t('main_title')}</h1>
-        <p className="lead">{t('slogan')}</p>
+        <p className="lead">🇨🇦 {t('slogan')}</p>
       </section>
 
       {/* Genre Popularity */}
@@ -62,7 +62,7 @@ function Home() {
       {/* Industry Cards */}
       <section style={{backgroundColor: "#A2A3BB", padding: "2px"}}>
         <Container style={{ marginTop: '5rem'}}>
-            <h4 style={{ textAlign: 'center', marginBottom: '2rem'}}>💵 {t('cardstitle')}</h4>
+            <h4 style={{ textAlign: 'left', marginBottom: '2rem'}}>💵 {t('cardstitle')}</h4>
             <Row className="g-4">
             {[ 
                 {
@@ -136,7 +136,8 @@ function Home() {
 
       {/* Streams Section */}
       <Container style={{ marginTop: '5rem' }}>
-        <h4 style={{ textAlign: 'right', marginBottom: '2rem', color: "#d2194b" }}>🎵{t('song_trends')} </h4>
+        <h4 style={{ textAlign: 'left', marginBottom: '2rem', color: "#d2194b" }}>🎵{t('song_trends')} </h4>
+        <br></br>
         <Row>
           <Col md={4} className="d-flex align-items-center">
             <Card className="text-white shadow-sm w-100" style={{

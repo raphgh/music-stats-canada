@@ -39,7 +39,7 @@
   "chart1xaxis": "Age Group",
   "chart1yaxis": "Popularity",
 
-  "chart2title": "Average Daily Streams Over 30 Days",
+  "chart2title": "Back To Friends dominates with a higher daily streaming average over the last 30 days.",
 
   "fact1title": "Did You Know?",
   "fact1a":"Over 80% of Canadians now stream music as their main way of listening.",
@@ -59,7 +59,7 @@
   "email": "info@musicstats.ca",
   "feedback2": "to let us know.",
 
-  "song_trends": "A closer look at Canada's most popular songs",
+  "song_trends": "A closer look at Canada's most currently popular songs.",
   "song1": "Anxiety",
   "song2": "Back to Friends",
   "song3": "Taste"
