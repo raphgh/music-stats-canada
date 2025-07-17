@@ -12,7 +12,7 @@ function Footer() {
         <Row className="text-center align-items-center py-4">
           <Col md={4} className="mb-3 mb-md-0 text-white">
             <h5>{t('main_title')}</h5>
-            <p>{t('slogan')}.</p>
+            <p>{t('slogan')}</p>
           </Col>
 
           <Col md={4} className="mb-3 mb-md-0">

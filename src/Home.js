@@ -32,7 +32,7 @@ function Home() {
 
       {/* Genre Popularity */}
       <Container style={{ marginTop: '4rem' }}>
-        <h4 style={{ textAlign: 'left', marginBottom: '2rem', color: "#d2194b" }}>📊 Popularity Trends</h4>
+        <h4 style={{ textAlign: 'left', marginBottom: '2rem', color: "#d2194b" }}>📊 {t('popularity_trends')}</h4>
         <Row>
           <Col md={8}>
             <GenreLineChart />
