@@ -1,7 +1,10 @@
 function Analysis() {
 
   return (
-<div>
+<div style={{
+    alignItems: "center",
+    alignContent: "center"
+}}>
     hey
 </div>
       );

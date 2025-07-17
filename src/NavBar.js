@@ -43,15 +43,28 @@ return (
                             }}
                         />
                     </div>
-                    Music Canada Stats
+                    Music Stats Canada
                 </Navbar.Brand>
                 <Nav className="ms-auto">
                     <Nav.Link as={NavLink} to="/">Home</Nav.Link>
-                    <Nav.Link as={NavLink} to="/analysis">Analysis</Nav.Link>
-                    <Nav.Link as={NavLink} to="/about">About MCanadaStats</Nav.Link>
-                    <Nav.Link as={NavLink} to="/surveyprogram">Survey Programs</Nav.Link>
-                    <Nav.Link as={NavLink} to="/contact">Contact</Nav.Link>
-                    <button onClick={toggleLanguage}>
+                    <Nav.Link as={NavLink} to="/">Analysis</Nav.Link>
+                    <Nav.Link as={NavLink} to="/">About MStatsCanada</Nav.Link>
+                    <Nav.Link as={NavLink} to="/">Survey Programs</Nav.Link>
+                    <Nav.Link as={NavLink} to="/">Contact</Nav.Link>
+                    <button
+                        onClick={toggleLanguage}
+                        style={{
+                            backgroundColor: '#ff9a56',
+                            color: '#fff',
+                            border: 'none',
+                            borderRadius: '4px',
+                            padding: '6px 14px',
+                            marginLeft: '12px',
+                            fontWeight: 'bold',
+                            cursor: 'pointer',
+                            transition: 'background 0.2s'
+                        }}
+                    >
                         {i18n.language === 'en' ? 'FR' : 'EN'}
                     </button>
                 </Nav>

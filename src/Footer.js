@@ -7,7 +7,7 @@ function Footer() {
     <footer className="lego-footer">
       <Container>
         <Row className="text-center align-items-center py-4">
-          <Col md={4} className="mb-3 mb-md-0">
+          <Col md={4} className="mb-3 mb-md-0 text-white">
             <h5>Music Stats Canada</h5>
             <p>Your one-stop destination for all things music in Canada.</p>
           </Col>
@@ -15,9 +15,10 @@ function Footer() {
           <Col md={4} className="mb-3 mb-md-0">
             <div className="footer-links">
               <a href="/music-stats-canada">Home</a>
-              <a href="/music-stats-canada/about">About</a>
-              <a href="/music-stats-canada/">Submit Your Stats</a>
-              <a href="/music-stats-canada/">Contact</a>
+              <a href="/music-stats-canada">Analysis</a>
+              <a href="/music-stats-canada">About MStatsCanada</a>
+              <a href="/music-stats-canada">Survey Programs</a>
+              <a href="/music-stats-canada">Contact</a>
             </div>
           </Col>
 
@@ -31,7 +32,7 @@ function Footer() {
         </Row>
 
         <Row>
-          <Col className="text-center mt-3 small">
+          <Col className="text-center mt-3 small text-white">
             <p>
                 © {new Date().getFullYear()} Music Stats Canada
             </p>

@@ -1,11 +1,12 @@
 {
   "home": "Home",
   "about": "About",
-  "submit_stats": "Submit Your Stats",
+  "submit_stats": "Survey Programs",
+  "analysis": "Analysis",
+  "contact": "Contact",
 
   "main_title": "Music Stats Canada",
   "slogan": "Your one-stop destination for all things music in Canada.",
-  
 
   "creation": "Creation",
 
@@ -33,10 +34,21 @@
   "platform_fees": "Platform commission fees",
   "indie_revenue": "Independent artist revenue",
 
-  
+
   "chart1title": "Rock Music Popularity Increases with Age (Compared to Pop & Hip-Hop)",
   "chart1xaxis": "Age Group",
-  "chart1yaxis": "Popularity"
+  "chart1yaxis": "Popularity",
 
+  "chart2title": "Average Daily Streams Over 30 Days",
 
+  "fact1": "",
+  "fact2a": "Teens (13–17) stream over 25 hours/week, mostly via TikTok and Spotify.",
+  "fact2b": "Toronto is Canada’s music capital, but Montreal has the most venues per capita!",
+
+  "fact3": "1 in 5 Canadians (about 7 million people) say music is essential to their mental health.",
+
+  "feedback": "Feedback",
+  "feedbacktxt": "What do you want to see on this page? Email info@musicstats.ca to let us know.",
+
+  "cardstitle": "Industry Breakdown Over Past 12 Months"
 }

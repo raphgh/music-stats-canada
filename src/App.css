@@ -4,11 +4,11 @@
   --gray: #A2A3BB;
   --red1: #CF4D6F;
   --red2: #d2194b;
+  --orange: #ff9a56;
 }
 
 .home-page{
   background-color: var(--white);
-  padding: 20px;
 }
 
 .NavBar {
@@ -44,4 +44,40 @@
   margin-left: calc(-50vw + 50%);
   color: var(--white);
   text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.lego-footer {
+  background-color: var(--red1);
+  border-top: 4px solid var(--red2);
+}
+
+.lego-footer h5 {
+  font-weight: 700;
+  color: var(--pink);
+}
+
+.footer-links a {
+  display: inline-block;
+  margin: 0 10px;
+  color: var(--white);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-icons a {
+  margin: 0 8px;
+  font-size: 1.3rem;
+  color: var(--white);
+}
+
+.footer-icons a:hover {
+  color: #d457a5;
+}
+
+footer p {
+  margin: 0;
 }

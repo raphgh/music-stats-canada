@@ -44,7 +44,7 @@ function GenreLineChart() {
           <Tooltip />
           <Legend />
           {/* Grey background genres */}
-          <Line type="monotone" dataKey="Pop" stroke="#ccc" strokeWidth={2} dot={false} />
+          <Line type="monotone" dataKey="Pop" stroke="#aaa" strokeWidth={2} dot={false} />
           <Line type="monotone" dataKey="HipHop" stroke="#bbb" strokeWidth={2} dot={false} />
           
           {/* Highlighted genre */}
