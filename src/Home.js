@@ -20,6 +20,7 @@ function Home() {
         style={{
           backgroundColor: '#CF4D6F',
           textAlign: 'center',
+          alignContent: 'center',
           padding: '3rem 1rem',
           color: 'white',
         }}
@@ -40,12 +41,12 @@ function Home() {
                 backgroundColor:"#ff9a56"
             }}>
               <Card.Body>
-                <Card.Title>🎧 Did You Know?</Card.Title>
+                <Card.Title>🎧 {t('fact1title')}</Card.Title>
                 <Card.Text>
-                  Over <strong>80%</strong> of Canadians now stream music as their main way of listening.
+                  {t('fact1a')}
                   <br />
                   <br />
-                  The most streamed Canadian artist in 2023? <strong>Drake</strong>.
+                  {t('fact1b')}
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -137,16 +138,16 @@ function Home() {
         <h4 style={{ textAlign: 'center', marginBottom: '2rem' }}>🎵 Average Song Streams</h4>
         <Row>
           <Col md={4} className="d-flex align-items-center">
-            <Card className="text-black shadow-sm w-100" style={{
+            <Card className="text-white shadow-sm w-100" style={{
                 backgroundColor: "#CF4D6F"
             }}>
               <Card.Body>
-                <Card.Title>📈 Canadian Listening Trends</Card.Title>
+                <Card.Title>📈{t('fact2title')}</Card.Title>
                 <Card.Text>
-                  Teens (13–17) stream over <strong>25 hours/week</strong>, mostly via TikTok and Spotify.
+                  {t('fact2a')}
                   <br />
                   <br />
-                  Toronto is Canada’s <strong>music capital</strong>, but Montreal has the most venues per capita!
+                  {t('fact2b')}
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -162,7 +163,7 @@ function Home() {
         <Container>
           <h4 style={{ textAlign: 'center', color: 'white', marginBottom: '1rem' }}>🧠 Quick Fact</h4>
           <p style={{ textAlign: 'center', maxWidth: '700px', color: 'white', margin: '0 auto' }}>
-            <strong>1 in 5 Canadians (about 7 million people)</strong> say music is essential to their mental health.
+            {t('fact3')}
             <br />
             <em>(Source: Music Canada, 2022)</em>
           </p>
@@ -172,9 +173,9 @@ function Home() {
       {/* Feedback */}
       <section style={{ padding: '2rem 1rem', marginTop: '3rem' }}>
         <Container>
-          <h4 style={{ textAlign: 'left', marginBottom: '1rem' }}>💬 Feedback</h4>
+          <h4 style={{ textAlign: 'left', marginBottom: '1rem' }}>💬 {t('feedback')}</h4>
           <p style={{ textAlign: 'left', }}>
-            What do you want to see on this page? Email <a href="mailto:info@musicstats.ca">info@musicstats.ca</a> to let us know.
+             {t('feedback1')}<a href="mailto:info@musicstats.ca"> {t('email')}</a> {t('feedback2')}
           </p>
         </Container>
       </section>

@@ -8,9 +8,12 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import { useTranslation } from 'react-i18next';
 import logoImg from "./images/logo.png"
+import i18n from './i18n';
+import TranslateButton from './TranslateButton';
 
 function NavBar() {
-  const { i18n } = useTranslation();
+
+const { t } = useTranslation();
 
   const toggleLanguage = () => {
     const newLang = i18n.language === 'en' ? 'fr' : 'en';
@@ -43,30 +46,19 @@ return (
                             }}
                         />
                     </div>
-                    Music Stats Canada
+                    {t('main_title')}
                 </Navbar.Brand>
                 <Nav className="ms-auto">
-                    <Nav.Link as={NavLink} to="/">Home</Nav.Link>
-                    <Nav.Link as={NavLink} to="/">Analysis</Nav.Link>
-                    <Nav.Link as={NavLink} to="/">About MStatsCanada</Nav.Link>
-                    <Nav.Link as={NavLink} to="/">Survey Programs</Nav.Link>
-                    <Nav.Link as={NavLink} to="/">Contact</Nav.Link>
-                    <button
+                    <Nav.Link as={NavLink} to="/">{t('home')}</Nav.Link>
+                    <Nav.Link as={NavLink} to="/">{t('analysis')}</Nav.Link>
+                    <Nav.Link as={NavLink} to="/">{t('submit_stats')}</Nav.Link>
+                    <Nav.Link as={NavLink} to="/">{t('about')}</Nav.Link>
+                    <Nav.Link as={NavLink} to="/">{t('contact')}</Nav.Link>
+                    <TranslateButton
                         onClick={toggleLanguage}
-                        style={{
-                            backgroundColor: '#ff9a56',
-                            color: '#fff',
-                            border: 'none',
-                            borderRadius: '4px',
-                            padding: '6px 14px',
-                            marginLeft: '12px',
-                            fontWeight: 'bold',
-                            cursor: 'pointer',
-                            transition: 'background 0.2s'
-                        }}
                     >
                         {i18n.language === 'en' ? 'FR' : 'EN'}
-                    </button>
+                    </TranslateButton>
                 </Nav>
             </Container>
         </Navbar>

@@ -41,14 +41,23 @@
 
   "chart2title": "Average Daily Streams Over 30 Days",
 
-  "fact1": "",
+  "fact1title": "Did You Know?",
+  "fact1a":"Over 80% of Canadians now stream music as their main way of listening.",
+  "fact1b":"The most streamed Canadian artist in 2023? Drake.",
+
+  "fact2title": "Canadian Listening Trends",
   "fact2a": "Teens (13–17) stream over 25 hours/week, mostly via TikTok and Spotify.",
   "fact2b": "Toronto is Canada’s music capital, but Montreal has the most venues per capita!",
 
+  "quickfact": "Quick Fact",
   "fact3": "1 in 5 Canadians (about 7 million people) say music is essential to their mental health.",
 
-  "feedback": "Feedback",
-  "feedbacktxt": "What do you want to see on this page? Email info@musicstats.ca to let us know.",
+  "cardstitle": "Industry Breakdown Over Past 12 Months",
 
-  "cardstitle": "Industry Breakdown Over Past 12 Months"
+  "feedback": "Feedback",
+  "feedback1": "What do you want to see on this page? Email",
+  "email": "info@musicstats.ca",
+  "feedback2": "to let us know."
+
+
 }

@@ -1,10 +1,58 @@
 {
+  "home": "Accueil",
+  "about": "À propos",
+  "submit_stats": "Programmes de sondage",
+  "analysis": "Analyse",
+  "contact": "Contact",
+
+  "main_title": "Statistiques Musicales Canada",
+  "slogan": "Votre guichet unique pour tout ce qui touche à la musique au Canada.",
+
   "creation": "Création",
-  "distribution": "Distribution et Labels",
-  "platforms": "Plateformes et Vente au détail",
+
   "studio": "Tarifs de location de studio",
-  "musicians": "Frais des musiciens",
+  "musicians": "Honoraires des musiciens en session",
   "equipment": "Prix des instruments/équipements",
   "software": "Logiciels de production audio",
-  "producer": "Tarifs des producteurs/ingénieurs"
+  "producer": "Tarifs des producteurs/ingénieurs",
+
+  "distribution": "Distribution et Labels",
+
+  "video_production": "Production de vidéoclips",
+  "album_art": "Pochettes et design d'albums",
+  "marketing_cost": "Coût des campagnes de PR/marketing",
+  "cd_printing": "Impression de CD/vinyle",
+  "licensing_fees": "Frais de licences numériques",
+
+  "platforms": "Plateformes et Détail",
+
+  "spotify_payouts": "Revenus Spotify/Apple",
+  "live_ticket_prices": "Prix moyen des billets de concert",
+  "merch_sales": "Volume des ventes de marchandise",
+  "platform_fees": "Commissions des plateformes",
+  "indie_revenue": "Revenus des artistes indépendants",
+
+  "chart1title": "La popularité du rock augmente avec l'âge (comparée à la pop et au hip-hop)",
+  "chart1xaxis": "Groupe d'âge",
+  "chart1yaxis": "Popularité",
+
+  "chart2title": "Moyenne de lectures quotidiennes sur 30 jours",
+
+  "fact1title": "Le saviez-vous?",
+  "fact1a": "Plus de 80 % des Canadiens écoutent principalement de la musique en streaming.",
+  "fact1b": "L'artiste canadien le plus écouté en 2023 ? Drake.",
+
+  "fact2title": "Tendances d'écoute au Canada",
+  "fact2a": "Les ados (13–17 ans) écoutent plus de 25 heures/semaine, surtout via TikTok et Spotify.",
+  "fact2b": "Toronto est la capitale musicale du Canada, mais Montréal a le plus de salles de concert par habitant!",
+
+  "quickfact": "Fait Rapide",
+  "fact3": "1 Canadien sur 5 (environ 7 millions de personnes) affirme que la musique est essentielle à sa santé mentale.",
+
+  "cardstitle": "Portrait de l'industrie – 12 derniers mois",
+
+  "feedback": "Commentaires",
+  "feedback1": "Qu’aimeriez-vous voir sur cette page ? Écrivez à",
+  "email": "info@musicstats.ca",
+  "feedback2": "pour nous le faire savoir."
 }
